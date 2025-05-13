@@ -5,6 +5,7 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import Home from './page/Home.jsx'
 import About from './page/About.jsx'
+import firebaseConfig from '../firebase.config.js'
 const router=createBrowserRouter([
   {
     path:'/',
